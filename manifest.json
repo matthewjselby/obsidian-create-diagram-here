@@ -1,0 +1,11 @@
+{
+	"id": "create-image-here",
+	"name": "Create Image Here",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Create an inline image that is immediately opened for editing.",
+	"author": "Matt Selby",
+	"authorUrl": "https://github.com/matthewjselby",
+	"fundingUrl": "",
+	"isDesktopOnly": true
+}
