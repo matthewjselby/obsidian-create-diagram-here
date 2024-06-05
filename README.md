@@ -4,7 +4,8 @@ This is a plugin for Obsidian that adds commands to create an SVG at the cursor 
 
 ![](/assets/create_diagram_here_demo.gif)
 
->[!warning] This is currently a proof-of-concept plugin mostly for personal use - use at your own risk!
+> [!WARNING]
+> This is currently a proof-of-concept plugin that I developed mostly for personal use - use at your own risk!
 
 # Features
 
