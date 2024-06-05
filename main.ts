@@ -50,18 +50,18 @@ const defaultNewSVGText = `<?xml version="1.0" encoding="UTF-8" standalone="no"?
         id="layer1" />
 </svg>`
 
-interface CreateImageHerePluginSettings {
+interface CreateDiagramHerePluginSettings {
     pathToImageEditor: string;
     newSVGTemplate: string;
 }
 
-const DEFAULT_SETTINGS: CreateImageHerePluginSettings = {
+const DEFAULT_SETTINGS: CreateDiagramHerePluginSettings = {
     pathToImageEditor: '',
     newSVGTemplate: defaultNewSVGText
 }
 
-export default class CreateImageHerePlugin extends Plugin {
-    settings: CreateImageHerePluginSettings;
+export default class CreateDiagramHerePlugin extends Plugin {
+    settings: CreateDiagramHerePluginSettings;
 
     editImage(imagePath: string) {
         if (this.app.vault.adapter instanceof FileSystemAdapter) {
@@ -128,7 +128,7 @@ export default class CreateImageHerePlugin extends Plugin {
         );
 
         // This adds a settings tab so the user can configure various aspects of the plugin
-        this.addSettingTab(new CreateImageHereSettingTab(this.app, this));
+        this.addSettingTab(new CreateDiagramHereSettingTab(this.app, this));
     }
 
     onunload() {
@@ -144,10 +144,10 @@ export default class CreateImageHerePlugin extends Plugin {
     }
 }
 
-class CreateImageHereSettingTab extends PluginSettingTab {
-    plugin: CreateImageHerePlugin;
+class CreateDiagramHereSettingTab extends PluginSettingTab {
+    plugin: CreateDiagramHerePlugin;
 
-    constructor(app: App, plugin: CreateImageHerePlugin) {
+    constructor(app: App, plugin: CreateDiagramHerePlugin) {
         super(app, plugin);
         this.plugin = plugin;
     }
