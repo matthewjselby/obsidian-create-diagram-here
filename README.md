@@ -1,6 +1,6 @@
-# Obsidian Plugin to Create Inline Images
+# Obsidian Plugin to Create Inline Diagrams
 
-This is a plugin for Obsidian that adds commands to create an SVG at the cursor location, which is immediately opened for editing.
+This is a plugin for Obsidian that adds commands to create an SVG at the cursor location, which is immediately opened for editing. I use this to quickly add diagrams to my notes.
 
 ![](/assets/create_diagram_here_demo.gif)
 
