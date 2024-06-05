@@ -93,7 +93,7 @@ export default class CreateImageHerePlugin extends Plugin {
 
         // Adds a command to create a new image at the cursor and open it for editing
         this.addCommand({
-            id: 'create-image-here',
+            id: 'create-diagram-here',
             name: 'Create image here',
             callback: async () => {
                 this.createAndOpenImage();

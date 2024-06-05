@@ -1,6 +1,6 @@
 {
-	"id": "create-image-here",
-	"name": "Create Image Here",
+	"id": "create-diagram-here",
+	"name": "Create Diagram Here",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
 	"description": "Create an inline image that is immediately opened for editing.",
