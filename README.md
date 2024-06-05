@@ -15,7 +15,9 @@ This is a plugin for Obsidian that adds commands to create an SVG at the cursor 
 
 # Installation
 
-Copy the folder to the `.obsidian/plugins` folder within your vault (note that this folder is hidden by default). Run `npm i`, then `npm run build` in the folder.
+For manual installation, create a folder in `{your_vault_folder}/.obsidian/plugins`, add the `main.js` and `manifest.json` files from a release to the folder, and enable the plugin in Obsidian preferences.
+
+Once this plugin is sufficiently developed, I will submit to the [official list](https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json).
 
 # ToDo
 
